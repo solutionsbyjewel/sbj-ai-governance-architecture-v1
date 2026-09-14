@@ -39,8 +39,11 @@ The architecture also includes cross-cutting governance constructs for system st
 - [Adversarial Validation — Cycle 1](docs/adversarial-validation.md)
 - [Agentic AI Prototype](docs/agentic-ai-prototype.md)
 - [Physical AI Prototype](docs/physical-ai-prototype.md)
+- [Simplified Public Decision Record](docs/decision-record.md)
+- [Public References](docs/references.md)
 - [Version Information](VERSION.md)
 - [IP and Use Notice](NOTICE.md)
+- [Contribution Boundary](CONTRIBUTING.md)
 
 ## Validation Status
 
@@ -68,7 +71,11 @@ Adversarial Testing Cycle 1 produced:
 
 This repository intentionally excludes proprietary implementation internals, scoring logic, enforcement logic, control logic, schemas, and gated methodology content.
 
-V1.0 public materials are limited to the architecture's high-level concepts, public validation results, sanitized examples, limitations, and supporting technical documentation.
+V1.0 public materials are limited to the architecture's high-level concepts, public validation results, sanitized examples, limitations, simplified public governance artifacts, and supporting technical documentation.
+
+## Contribution Status
+
+V1.0 is a frozen public baseline. External contributions are not accepted for V1.0.
 
 ## Independent Evaluation Disclosure
 
