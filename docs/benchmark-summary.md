@@ -17,8 +17,6 @@ The benchmark evaluates **SBJ architecture coverage**. It does not score, certif
 5. Tekedra Mawakana / Waymo
 6. Demis Hassabis / Google DeepMind
 
-NVIDIA/Jensen Huang served as a supporting Physical AI reference and was not part of the scored cohort.
-
 ## Determination-Level Results
 
 | Result | Count |
