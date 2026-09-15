@@ -9,7 +9,18 @@ SBJ AI Governance Architecture V1.0 is a cross-cutting governance architecture f
 
 https://solutionsbyjewel.com/sbj-ai-governance-architecture-v1
 
-The Solutions by Jewel website is the canonical public source for the architecture. This repository serves as the supporting technical documentation layer for the public V1.0 release.
+The Solutions by Jewel website is the canonical public source for the architecture. This repository serves as the supporting technical documentation and validation-evidence layer for the public V1.0 release.
+
+## Lifecycle Status
+
+**V1.0 lifecycle: CLOSED**  
+**Architecture state: FROZEN**  
+**Benchmark result: VALIDATED WITH MATERIAL LIMITATIONS**  
+**Adversarial Testing Cycle 1: COMPLETE — CLOSED**
+
+`DEVELOPED → PROTOTYPED → FROZEN → BENCHMARKED → PUBLISHED → ADVERSARIALLY TESTED → ADJUDICATED → CLOSED`
+
+Future research findings, external evidence, architecture changes, extensions, or newly authorized requirements are evaluated in a subsequent architecture cycle and do not silently alter V1.0. Factual or publication corrections may be made without reopening the architecture.
 
 ## Architecture Scope
 
@@ -64,8 +75,11 @@ Adversarial Testing Cycle 1 produced:
 - 0 structural failures
 - 1 architectural ambiguity identified
 - 1 ambiguity resolved by authoritative interpretation
+- 0 unresolved architectural ambiguities
 - 0 V1.0 architecture modifications
 - 0 new V2.0 requirements established by Cycle 1
+
+ATC1-001 — Human-Operational-Use Drift was resolved through authoritative interpretation of existing V1.0 consequence/exposure, Continuous Control, and Transition Authorization logic. The resolution introduced no new architecture construct and did not modify V1.0. See [Adversarial Validation — Cycle 1](docs/adversarial-validation.md) for the final disposition and testing boundary.
 
 ## Public Boundary
 
@@ -75,7 +89,7 @@ V1.0 public materials are limited to the architecture's high-level concepts, pub
 
 ## Contribution Status
 
-V1.0 is a frozen public baseline. External contributions are not accepted for V1.0.
+V1.0 is a frozen, closed public baseline. External contributions are not accepted for V1.0.
 
 ## Independent Evaluation Disclosure
 
